@@ -1,4 +1,4 @@
-name = "serverless-driver"
+name = "tidb-serverless-edge"
 main = "src/worker.ts"
 compatibility_date = "2023-08-21"
 
