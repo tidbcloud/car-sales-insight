@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@tidbcloud/serverless": "^0.0.1",
+    "@tidbcloud/serverless": "^0.0.3",
     "next": "^13.4.2"
   },
   "devDependencies": {
