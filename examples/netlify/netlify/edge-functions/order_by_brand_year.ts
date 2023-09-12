@@ -16,7 +16,7 @@ export default async (request: Request, context: Context) => {
 
   const { searchParams } = new URL(request.url)
   const year = searchParams.get('year')
-  const query = 'SELECT name,COUNT(*) AS order_count FROM sold_car_orders WHERE year = ? GROUP BY name ORDER BY order_count DESC LIMIT 1
+  const query = 'SELECT name,COUNT(*) AS order_count FROM sold_car_orders WHERE year = ? GROUP BY name ORDER BY order_count DESC LIMIT 1'
   const result = await client.query(query,[year]);
   return new Response(JSON.stringify({rows:result}),{
     headers: {
