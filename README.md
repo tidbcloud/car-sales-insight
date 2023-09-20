@@ -45,9 +45,3 @@ npm run dev
 Deploy with one click:
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ftidbcloud%2Fcar-sales-insight)
-
-
-## TODO
-
-- Use @tidbcloud/serverless
-- Use production TiDB serverless
