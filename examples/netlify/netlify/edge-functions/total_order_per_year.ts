@@ -4,7 +4,7 @@ export default async () => {
   const client = await new Client().connect({
     hostname: Netlify.env.get('TIDB_HOST'),
     username: Netlify.env.get('TIDB_USER'),
-    db: "test",
+    db: Netlify.env.get('TIDB_DATABASE'),
     password: Netlify.env.get('TIDB_PASSWORD'),
     port: 4000,
     tls: {
