@@ -7,9 +7,9 @@
     "start": "wrangler dev"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20230419.0",
+    "@cloudflare/workers-types": "^5.20261110.1",
     "typescript": "^5.0.4",
-    "wrangler": "^3.19.0"
+    "wrangler": "^4.160.0"
   },
   "dependencies": {
     "@tidbcloud/serverless": "^0.0.3"
