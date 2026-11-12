@@ -1,0 +1,2 @@
+# Preserve whitespace inside the generated driver's upstream template strings.
+examples/netlify/netlify/vendor/mysql.js -whitespace

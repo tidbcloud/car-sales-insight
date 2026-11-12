@@ -1,7 +1,7 @@
-import { Client,TLSMode } from "https://deno.land/x/mysql/mod.ts";
-import type { Context } from "https://edge.netlify.com";
+// @deno-types="../vendor/mysql.d.ts"
+import { Client,TLSMode } from "../vendor/mysql.js";
 
-export default async (request: Request, context: Context) => {
+export default async (request: Request) => {
 
   const client = await new Client().connect({
     hostname: Netlify.env.get('TIDB_HOST'),

@@ -1,4 +1,5 @@
-import { Client,TLSMode } from "https://deno.land/x/mysql/mod.ts";
+// @deno-types="../vendor/mysql.d.ts"
+import { Client,TLSMode } from "../vendor/mysql.js";
 
 export default async () => {
   const client = await new Client().connect({

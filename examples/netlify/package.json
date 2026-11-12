@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "edge:bundle": "deno bundle --frozen --output=netlify/vendor/mysql.js deps/mysql.ts",
+    "test:edge": "deno test --frozen --cached-only tests/",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
